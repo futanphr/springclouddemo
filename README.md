@@ -5,6 +5,7 @@
 	3.eureka-client1 是eureka的客户端（被注册的服务），服务名是service-hi,端口号是8763
 	4.eureka-service-ribbon 是eureka的客户端（用于负载均衡的调用eureka-client，eureka-client1），也注册到服务注册中心，服务名是service-ribbon,端口号是8764
 	5.eureka-service-feign 是eureka的客户端（用于负载均衡的调用eureka-client，eureka-client1），也注册到服务注册中心，服务名是service-ribbon,端口号是8765
+	6.eureka-service-feign-hytrix是断路器
 
 #####
 服务注册测试流程：
